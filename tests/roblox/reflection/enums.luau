@@ -7,6 +7,8 @@ local db = roblox.getReflectionDatabase()
 
 local IGNORED_EMPTY_ENUMS: { string } = {
 	"AudioCaptureMode",
+	"IntentReplicability",
+	"ProjectServiceOperationResult",
 	"TagReplicability",
 }
 
